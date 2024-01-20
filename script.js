@@ -1,4 +1,4 @@
-alert("Project under construction. CSS will follow. 😉")
+alert("Project still under construction. CSS will follow. 😉")
 
 // Challenge 1: Alert value of password input when submitting
 
