@@ -1,6 +1,6 @@
 alert("Project under construction. CSS will follow. 😉")
 
-// Challenge 1: Alert  value of password input when submitting
+// Challenge 1: Alert value of password input when submitting
 
 function showPassword(event) {
     event.preventDefault();
