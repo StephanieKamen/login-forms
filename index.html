@@ -9,16 +9,19 @@
 </head>
 <body>
     <h1>Login Forms</h1>
-    
-    <h2>Challenge 1</h2> 
+
+<div class="challenge1">
+  <h2>Challenge 1</h2> 
     <p>When submitting the form, alert the value of the password input. <br />
     <form id="password-form">
         <input type="password" id="password-input" placeholder="Enter your password" required>
         <input type="submit" value="Login">
     </form>
 </p>
+</div>
 
- <h2>Challenge 2</h2>
+<div class="challenge2">
+  <h2>Challenge 2</h2>
     <p>When submitting the form, alert the value of the username and e-mail inputs. <br />
     <form id="login-form">
         <input type="username" id="username-input" placeholder="Enter your username" required>
@@ -26,16 +29,25 @@
         <input type="submit" value="Login">
     </form>
 </p>
+</div>
 
-<!-- <h2>Challenge 3</h2>
+<div class="challenge3">
+  <h2>Challenge 3</h2>
     <p>Password validation. <br />
-        <form id="signup-form">
-            <input type="username" id="username-input" placeholder="Enter your username" required><br /><br />
-            <input type="email" id="email-input" placeholder="Enter your e-mail" required><br /><br />
+        <form id="validation-form">
+            <input type="username" id="username" placeholder="Enter your username" required><br /><br />
+            <input type="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" title="At least 6 or more characters needed. Must contain at least one uppercase letter and a number" placeholder="Enter your password" required><br /><br />
             <input type="submit" value="Sign up">
-        </form>
+        </form> </p>
 
-    </p> -->
+    <p>Please note: Your password must contain the following:</p>
+        <ul>
+            <li id="length" class="invalid">At least 6 characters</li>
+            <li id="uppercase" class="invalid">At least one capital letter</li>
+            <li id="number" class="invalid">A number</li>
+        </ul>   
+    </div>
+
 <script src="script.js"></script>
 </body>
 </html>
