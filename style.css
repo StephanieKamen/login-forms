@@ -18,3 +18,18 @@ body {
 h1 {
   text-align: center;
 }
+
+p {
+  font-size: 17px;
+}
+
+#password-input,
+#submit-input,
+#username-input,
+#email-input,
+#login-input {
+  border-color: #dbd8e3;
+  border-style: solid, 1px;
+  border-radius: 4px;
+  padding: 7px 20px;
+}
