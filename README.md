@@ -10,4 +10,4 @@ Shows the value of the individual given password input when submitting.
 Shows the value of both username and e-mail input.
 
 **Challenge 3**
-Not build yet (password validation form)
+Not built yet (password validation form)
