@@ -8,7 +8,17 @@ body {
 .heading,
 .challenge1,
 .challenge2 {
-  background: #eeeeee;
+  background: rgb(238, 238, 238);
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.heading:hover,
+.challenge1:hover,
+.challenge2:hover {
+  background: rgba(255, 255, 255, 0.8);
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
@@ -32,4 +42,17 @@ p {
   border-style: solid, 1px;
   border-radius: 4px;
   padding: 7px 20px;
+}
+
+#login-input,
+#submit-input {
+  background: #222831;
+  color: #eeeeee;
+}
+
+#login-input:hover,
+#submit-input:hover {
+  color: #0092ca;
+  font-size: 14px;
+  text-transform: uppercase;
 }
