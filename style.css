@@ -60,3 +60,7 @@ p {
   font-size: 14px;
   text-transform: uppercase;
 }
+
+input {
+  color: rgb(0, 146, 202);
+}
