@@ -7,8 +7,7 @@ body {
 
 .heading,
 .challenge1,
-.challenge2,
-footer {
+.challenge2 {
   background: rgb(238, 238, 238);
   max-width: 600px;
   margin: 20px auto;
@@ -16,10 +15,21 @@ footer {
   border-radius: 10px;
 }
 
+.footer {
+  background: rgb(238, 238, 238);
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 12px;
+  text-align: left;
+  text-decoration: none;
+}
+
 .heading:hover,
 .challenge1:hover,
 .challenge2:hover,
-footer:hover {
+.footer:hover {
   background: rgba(255, 255, 255, 0.3);
   color: rgb(238, 238, 238);
   max-width: 600px;
@@ -28,17 +38,13 @@ footer:hover {
   border-radius: 10px;
 }
 
-.footer {
-  font-size: 12px;
-  background: rgb(238, 238, 238);
-  max-width: 600px;
-  border-radius: 10px;
-  margin: 20px auto;
-  padding: 20px;
+a {
+  color: rgb(34, 40, 49);
+  text-decoration: none;
 }
 
-a  {
-  text-decoration: none;
+a:hover {
+  color: rgb(0, 146, 202);
 }
 
 h1 {
