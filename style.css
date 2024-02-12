@@ -7,7 +7,8 @@ body {
 
 .heading,
 .challenge1,
-.challenge2 {
+.challenge2,
+footer {
   background: rgb(238, 238, 238);
   max-width: 600px;
   margin: 20px auto;
@@ -17,13 +18,27 @@ body {
 
 .heading:hover,
 .challenge1:hover,
-.challenge2:hover {
+.challenge2:hover,
+footer:hover {
   background: rgba(255, 255, 255, 0.3);
   color: rgb(238, 238, 238);
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
   border-radius: 10px;
+}
+
+.footer {
+  font-size: 12px;
+  background: rgb(238, 238, 238);
+  max-width: 600px;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+a  {
+  text-decoration: none;
 }
 
 h1 {
