@@ -1,5 +1,3 @@
-alert("Please note: Project still under construction. 😉")
-
 // Challenge 1: Alert value of password input when submitting
 
 function showPassword(event) {
