@@ -8,6 +8,3 @@ Shows the value of the individual given password input when submitting.
 
 **Challenge 2** 
 Shows the value of both username and e-mail input.
-
-**Challenge 3**
-Not built yet (password validation form)
